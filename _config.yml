@@ -26,7 +26,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - serve.sh
+  - scripts/
 
 # GitHub Pages nonmodifiable options ###########################################
 
@@ -60,7 +60,3 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
-
-
-###
-
