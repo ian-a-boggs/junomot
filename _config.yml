@@ -1,0 +1,66 @@
+# Site general configuration ###################################################
+
+domain: ian-a-boggs.github.io
+url: https://ian-a-boggs.github.io
+baseurl: /junomot
+title: Junomot
+locale: en-US
+lang: en
+timezone: America/Los_Angeles
+
+# Enable strict error checking #################################################
+
+strict_front_matter: true
+liquid:
+  error_mode: strict
+  strict_variables: true
+  strict_filters: true
+
+# Exclude 
+
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - serve.sh
+
+# GitHub Pages nonmodifiable options ###########################################
+
+lsi: false
+safe: true
+# source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+whitelist:
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+plugins:
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
+
+###
+
